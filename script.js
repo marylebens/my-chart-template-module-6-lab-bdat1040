@@ -1,8 +1,5 @@
 $(document).ready(function() {
 var TITLE = 'Weekly Time Allocation';
-var CAPTION = 'Source: [Your Name]';
-var X_AXIS = 'Activities';
-var Y_AXIS = 'Hours per Week';
 
   // `false` for vertical column chart, `true` for horizontal bar chart
   var HORIZONTAL = false;
@@ -28,10 +25,10 @@ var Y_AXIS = 'Hours per Week';
   ];
 
   // x-axis label and label in tooltip
-  var X_AXIS = 'School Districts';
+  var X_AXIS = 'Activities';
 
   // y-axis label, label in tooltip
-  var Y_AXIS = 'Number of Enrolled Students';
+  var Y_AXIS = 'Hours per Week';
 
   // `true` to show the grid, `false` to hide
   var SHOW_GRID = true; 
