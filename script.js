@@ -1,6 +1,8 @@
 $(document).ready(function() {
-
-  var TITLE = 'English Learners by Select School Districts in CT, 2018-19';
+var TITLE = 'Weekly Time Allocation';
+var CAPTION = 'Source: [Your Name]';
+var X_AXIS = 'Activities';
+var Y_AXIS = 'Hours per Week';
 
   // `false` for vertical column chart, `true` for horizontal bar chart
   var HORIZONTAL = false;
